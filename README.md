@@ -19,4 +19,4 @@ A luxury 3D coin flip mobile app featuring physics-based animations, consecutive
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/gihanakalanka/coin-flip-app.git](https://github.com/gihanakalanka/coin-flip-app.git)
+   git clone https://github.com/gihanakalanka/coin-flip-app.git
