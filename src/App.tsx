@@ -178,7 +178,7 @@ export default function App() {
               </div>
               <div>
                 <h1 className="text-lg font-black tracking-widest text-stone-900 leading-none">
-                  AURA FLIP
+                  COIN FLIP
                 </h1>
                 <p className="text-[10px] font-extrabold tracking-widest uppercase text-stone-400 mt-0.5">
                   PREMIUM GOLD COIN

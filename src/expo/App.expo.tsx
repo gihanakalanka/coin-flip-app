@@ -1,5 +1,5 @@
 /**
- * AURA FLIP - Premium Coin Flip Mobile App
+ * COIN FLIP - Premium Coin Flip Mobile App
  * Single File React Native & Expo App
  *
  * Features:
@@ -14,8 +14,8 @@
  * - Winning celebration banner and haptic fanfare after 3 strikes
  *
  * Requirements:
- * npx create-expo-app AuraFlip
- * cd AuraFlip
+ * npx create-expo-app CoinFlip
+ * cd CoinFlip
  * npx expo install react-native-svg
  * (Replace App.js or App.tsx with this code and run: npx expo start)
  */
@@ -236,7 +236,7 @@ export default function App() {
       {/* Top Mobile Bar */}
       <View style={styles.header}>
         <View>
-          <Text style={styles.appTitle}>AURA FLIP</Text>
+          <Text style={styles.appTitle}>COIN FLIP</Text>
           <Text style={styles.appSubtitle}>PREMIUM GOLD COIN</Text>
         </View>
         <TouchableOpacity style={styles.resetButton} onPress={resetGame} activeOpacity={0.7}>
