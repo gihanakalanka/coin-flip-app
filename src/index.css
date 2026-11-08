@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@keyframes streakFlashPulse {
+  0%, 100% {
+    background-color: #fffbeb;
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
+    transform: scale(1);
+  }
+  50% {
+    background-color: #fef3c7;
+    border-color: #d97706;
+    box-shadow: 0 0 25px 8px rgba(245, 158, 11, 0.6);
+    transform: scale(1.025);
+  }
+}
+
+.streak-flashing {
+  animation: streakFlashPulse 0.55s ease-in-out infinite;
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.65); opacity: 0; }
+  60% { transform: scale(1.06); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes confettiFall {
+  0% { transform: translateY(-20px) scale(0.8) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(500px) scale(1) rotate(720deg); opacity: 0; }
+}
+
+.animate-bounceIn {
+  animation: bounceIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+.animate-confettiFall {
+  animation: confettiFall 2.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Aura Flip - Premium Mobile Coin Flip",
+  "description": "A luxury modern coin flip mobile application featuring 3D animated physics, streak tracking with flash animations, audio feedback, and ready-to-run React Native & Expo single-file code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
